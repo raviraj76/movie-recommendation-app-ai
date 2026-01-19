@@ -1,0 +1,11 @@
+# env
+.env
+
+# dependencies
+node_modules/
+
+# react
+build/
+
+# misc
+.DS_Store
