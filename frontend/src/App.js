@@ -18,7 +18,7 @@ function App() {
       setError("");
       setMovies([]);
 
-      const res = await fetch("http://localhost:3001/recommend", {
+      const res = await fetch("https://movie-recommendation-backend-rwko.onrender.com/recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userInput: input })
